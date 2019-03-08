@@ -147,12 +147,13 @@ a.patches:hover {
 	background-color: #bfbfbf;
 }
 
-#skills th.skillName {
+#skills #skill1Cube th.skillName {
 	width:20%;
 }
 
 #skills th.description{
 	width:50%;
+
 }
 
 #skills td p {
@@ -165,3 +166,9 @@ a.patches:hover {
 	margin-left: auto;
 	margin-right: auto;
 }
+
+.skill1Cube {
+	display: none;
+	overflow: :hidden;
+}
+

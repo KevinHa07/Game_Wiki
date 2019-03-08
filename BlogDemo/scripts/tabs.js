@@ -11,3 +11,20 @@ function openRank(evnt, rankName){
 	document.getElementById(rankName).style.display = "block";
 	evnt.currentTarget.className += " active";
 }
+
+function openSkillCube(evnt, row){
+	var i ,cubeContent;
+	cubeContent = document.getElementsByClassName(row);
+
+	for(i = 0; i < cubeContent.length; i++){
+		if(cubeContent[i].style.display === "none"){
+			cubeContent[i].style.display = "table-row";
+		}
+		else{
+			cubeContent[i].style.display = "none";
+		}
+	}
+	
+	
+
+}
