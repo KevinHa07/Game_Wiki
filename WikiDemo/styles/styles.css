@@ -167,7 +167,7 @@ a.patches:hover {
 	margin-right: auto;
 }
 
-.skill1Cube {
+.skill1Cube, .skill2Cube, .skill3Cube, .skill4Cube{
 	display: none;
 	overflow: :hidden;
 }

@@ -24,7 +24,5 @@ function openSkillCube(evnt, row){
 			cubeContent[i].style.display = "none";
 		}
 	}
-	
-	
-
 }
+
